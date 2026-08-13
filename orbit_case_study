@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Study — Orbit, a 3D Interactive AI Workspace | Aanishka Sanyal</title>
+  <meta name="description" content="Orbit is an experimental 3D interactive AI workspace built with React, Three.js, GSAP, and Gemini AI — exploring what an AI workspace could feel like beyond chat windows and forms." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">Aanishka Sanyal <span>/ Technical Writing</span></a>
+      <a class="nav-link" href="index.html">← Back to landing</a>
+    </div>
+  </nav>
+
+  <header class="file-header">
+    <div class="wrap">
+      <span class="file-tag">Case file · Personal build</span>
+      <h1>Orbit — A 3D Interactive AI Workspace</h1>
+      <div class="file-meta">
+        <span>Solo project, built in <strong>Google AI Studio</strong></span>
+        <span>React · Three.js · GSAP · Gemini AI</span>
+        <span>Deployed on <strong>Google Cloud Run</strong></span>
+      </div>
+      <div class="cta-row" style="margin-top: 28px;">
+        <a class="btn-stamp" href="https://antigravity-487075109721.asia-southeast1.run.app/" target="_blank" rel="noopener">Live demo →</a>
+        <a class="btn-ghost" href="https://github.com/aanishka1511-dev/orbit-life-saver-ai" target="_blank" rel="noopener">View repo</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 01 — OVERVIEW -->
+  <section class="case-section" id="overview">
+    <div class="wrap">
+      <div class="section-label reveal">
+        <span class="idx">01</span>
+        <h2>Overview</h2>
+      </div>
+      <div class="body-copy reveal">
+        <p>
+          Orbit is an experimental AI workspace — a planner that converts
+          unstructured thoughts into tactical sprints, rendered as a
+          cinematic 3D interface instead of a flat dashboard. It bundles an
+          active Deadline Guardian, an AI Executive Coach, Pomodoro timers,
+          and workload analyzers into one space, built to keep focus flow
+          intact rather than scattering it across tabs and forms.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 — WHAT I WAS TRYING TO EXPLORE -->
+  <section class="case-section on-paper-2" id="exploration">
+    <div class="wrap">
+      <div class="section-label reveal">
+        <span class="idx">02</span>
+        <h2>What I was trying to explore</h2>
+      </div>
+      <div class="body-copy reveal">
+        <p>
+          Most AI workspaces I'd used were still just a collection of chat
+          windows and forms — type a prompt, read a response, repeat. I
+          wanted to see what it would feel like if an AI workspace was
+          visual and spatial instead: something you move through and
+          interact with, not just type into.
+        </p>
+        <p>
+          Orbit was my way of testing that idea directly — building a
+          planner where the interface itself, not just the AI underneath
+          it, does some of the work of organizing your attention.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 — BUILD PROCESS -->
+  <section class="case-section" id="build">
+    <div class="wrap">
+      <div class="section-label reveal">
+        <span class="idx">03</span>
+        <h2>Build process</h2>
+      </div>
+      <div class="body-copy reveal">
+        <p>
+          I built Orbit in Google AI Studio, using React for the interface,
+          Three.js for the 3D rendering, GSAP for animation, and the Gemini
+          API for the AI layer underneath — the Deadline Guardian and
+          Executive Coach features, and the logic that turns a rough list of
+          thoughts into a structured sprint.
+        </p>
+        <p>
+          Beyond the code itself, this project was also where I actually
+          learned how the pieces around AI-assisted development fit
+          together: committing and branching through GitHub as the project
+          grew, and then taking it from a local build to a live, deployed
+          app on Google Cloud Run.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 — WHAT I LEARNED -->
+  <section class="case-section on-paper-2" id="learned">
+    <div class="wrap">
+      <div class="section-label reveal">
+        <span class="idx">04</span>
+        <h2>What I learned</h2>
+      </div>
+      <div class="body-copy reveal">
+        <p>
+          Orbit pushed me past writing code in isolation and into shipping
+          it — version control discipline, thinking about deployment from
+          the start rather than as an afterthought, and designing an
+          interface where 3D and motion have to actually support the task
+          at hand instead of just decorating it.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-block">
+    <div class="wrap reveal">
+      <h2>Get in touch</h2>
+      <p>
+        Happy to talk through how Orbit was built, what I'd change with more
+        time, or how the same approach could apply somewhere else.
+      </p>
+      <div class="cta-row">
+        <a class="btn-stamp" href="mailto:aanishka1511@gmail.com">Email me →</a>
+        <a class="btn-ghost" href="https://www.linkedin.com/in/aanishka-sanyal-32819b375" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>Aanishka Sanyal — B.Tech CSE, ITER, Siksha 'O' Anusandhan</span>
+      <span><a href="index.html">Back to landing</a></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
