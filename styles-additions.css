@@ -1,0 +1,68 @@
+.contact-form {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 8px;
+}
+
+.hp-field {
+  position: absolute;
+  left: -9999px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-inv-soft);
+}
+
+.field input,
+.field textarea {
+  background: var(--ink-2);
+  border: 1px solid var(--line-inv);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  color: var(--text-inv);
+  font-family: var(--font-body);
+  font-size: 15px;
+  resize: vertical;
+}
+
+.field input:focus-visible,
+.field textarea:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+  border-color: var(--amber);
+}
+
+.field-error {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--flag);
+  min-height: 16px;
+}
+
+.contact-form .btn-stamp {
+  align-self: flex-start;
+  border: 1px solid var(--amber);
+  cursor: pointer;
+}
+
+/* ---------- thanks page ---------- */
+
+.thanks-hero {
+  padding: 88px 0 96px;
+}
+
+.thanks-hero .btn-ghost {
+  margin-top: 24px;
+}
